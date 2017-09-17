@@ -1,5 +1,5 @@
-hash: 090fe689ce25c46450d654ee0d89a2308516ff0ca2fbd3c991c1f01a21caef82
-updated: 2017-09-18T01:13:55.536998382+09:00
+hash: 7dcf6b0b5898d1aa1ea9497aee6ad81c491256c98e257e7f8a67c98a3aabe862
+updated: 2017-09-18T01:19:07.799418132+09:00
 imports:
 - name: cloud.google.com/go
   version: 5a9e19d4e1e41a734154e44a2132b358afb49a03
@@ -11,6 +11,8 @@ imports:
   - pubsub/apiv1
 - name: github.com/dgrijalva/jwt-go
   version: a539ee1a749a2b895533f979515ac7e6e0f5b650
+- name: github.com/gocarina/gocsv
+  version: 8482024e82190b03424659d74aad4769724af73e
 - name: github.com/golang/protobuf
   version: 17ce1425424ab154092bbb43af630bd647f3bb0d
   subpackages:

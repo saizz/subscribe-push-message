@@ -21,3 +21,4 @@ import:
   - color
 - package: gopkg.in/go-playground/validator.v9
   version: v9.7.0
+- package: github.com/gocarina/gocsv
