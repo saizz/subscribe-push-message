@@ -1,0 +1,21 @@
+package: .
+import:
+- package: cloud.google.com/go
+  version: v0.13.0
+  subpackages:
+  - pubsub
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/appengine
+  version: v1.0.0
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: github.com/mjibson/goon
+- package: github.com/labstack/echo
+  version: 3.2.3
+- package: github.com/labstack/gommon
+  version: 0.2.2
+  subpackages:
+  - color

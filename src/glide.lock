@@ -1,0 +1,143 @@
+hash: b5a2d353b848ef1e3a301fd393b08b48107d4a15d90c59f72b767db7b2b2d38f
+updated: 2017-09-17T21:34:29.204718525+09:00
+imports:
+- name: cloud.google.com/go
+  version: 5a9e19d4e1e41a734154e44a2132b358afb49a03
+  subpackages:
+  - compute/metadata
+  - iam
+  - internal/version
+  - pubsub
+  - pubsub/apiv1
+- name: github.com/dgrijalva/jwt-go
+  version: a539ee1a749a2b895533f979515ac7e6e0f5b650
+- name: github.com/golang/protobuf
+  version: 17ce1425424ab154092bbb43af630bd647f3bb0d
+  subpackages:
+  - proto
+  - protoc-gen-go/descriptor
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/empty
+  - ptypes/timestamp
+- name: github.com/googleapis/gax-go
+  version: 8c160ca1523d8eea3932fbaa494c8964b7724aa8
+- name: github.com/labstack/echo
+  version: cec7629194fe4bf83b0c72d9a02d340c7a1468ac
+  subpackages:
+  - middleware
+- name: github.com/labstack/gommon
+  version: 779b8a8b9850a97acba6a3fe20feb628c39e17c1
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/mattn/go-colorable
+  version: ad5389df28cdac544c99bd7b9161a0b5b6ca9d1b
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/mjibson/goon
+  version: ce6c18b635bb36342c10a151f79983efd70f96d6
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 9ba3862cf6a5452ae579de98f9364dd2e544844c
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: 66aacef3dd8a676686c7ae3716979581e8b03c47
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/oauth2
+  version: d89af98d7c6bba047c5a2622f36bc14b8766df85
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/sync
+  version: f52d1811a62927559de87708c8913c1650ce4f26
+  subpackages:
+  - errgroup
+  - semaphore
+- name: golang.org/x/sys
+  version: a5054c7c1385fd50d9394475365355a87a7873ec
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: bd91bbf73e9a4a801adbfb97133c992678533126
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: google.golang.org/api
+  version: b6a02105ec5a446209e9d38557f0e1ac30cacf82
+  subpackages:
+  - googleapi/transport
+  - internal
+  - iterator
+  - option
+  - support/bundler
+  - transport
+  - transport/grpc
+  - transport/http
+- name: google.golang.org/appengine
+  version: 150dc57a1b433e64154302bdc40b6bb8aefa313a
+  subpackages:
+  - datastore
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/memcache
+  - internal/modules
+  - internal/remote_api
+  - internal/socket
+  - internal/urlfetch
+  - log
+  - memcache
+  - socket
+  - urlfetch
+- name: google.golang.org/genproto
+  version: 595979c8a7bf586b2d293fb42246bf91a0b893d9
+  subpackages:
+  - googleapis/api/annotations
+  - googleapis/iam/v1
+  - googleapis/pubsub/v1
+  - googleapis/rpc/status
+  - protobuf/field_mask
+- name: google.golang.org/grpc
+  version: 3214f767e5a22021f792f7c4625a6380ce1eb2b2
+  subpackages:
+  - balancer
+  - codes
+  - connectivity
+  - credentials
+  - credentials/oauth
+  - grpclb/grpc_lb_v1/messages
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []
