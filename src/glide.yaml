@@ -19,3 +19,5 @@ import:
   version: 0.2.2
   subpackages:
   - color
+- package: gopkg.in/go-playground/validator.v9
+  version: v9.7.0

@@ -1,5 +1,5 @@
-hash: b5a2d353b848ef1e3a301fd393b08b48107d4a15d90c59f72b767db7b2b2d38f
-updated: 2017-09-17T21:34:29.204718525+09:00
+hash: 090fe689ce25c46450d654ee0d89a2308516ff0ca2fbd3c991c1f01a21caef82
+updated: 2017-09-18T01:13:55.536998382+09:00
 imports:
 - name: cloud.google.com/go
   version: 5a9e19d4e1e41a734154e44a2132b358afb49a03
@@ -140,4 +140,6 @@ imports:
   - status
   - tap
   - transport
+- name: gopkg.in/go-playground/validator.v9
+  version: a021b2ec9a8a8bb970f3f15bc42617cb520e8a64
 testImports: []
