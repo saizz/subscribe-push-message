@@ -17,10 +17,10 @@ type CustomLoadSaver interface {
 
 type Stock struct {
 	ID         string    `json:"-" datastore:"-" goon:"id"`
-	Group      string    `json:"group"`
-	StoreCode  string    `json:"store_code"`
-	JanIsbn    string    `json:"jan_isbn"`
-	Quantity   int       `json:"quantity"`
+	Group      string    `json:"group" csv:"group"`
+	StoreCode  string    `json:"store_code" csv:"store_code"`
+	JanIsbn    string    `json:"jan_isbn" csv:"jan_isbn"`
+	Quantity   int       `json:"quantity" csv:"quantity"`
 	ResisterAt time.Time `json:"register_at"`
 }
 
